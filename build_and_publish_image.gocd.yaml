@@ -1,6 +1,6 @@
 format_version: 3
 pipelines:
-  build_and_publish_image:
+  build_and_publish_image_km:
     group: sample
     label_template: ${COUNT}
     lock_behavior: unlockWhenFinished
