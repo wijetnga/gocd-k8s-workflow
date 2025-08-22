@@ -8,7 +8,7 @@ pipelines:
     environment_variables:
     materials:
       upstream:
-        pipeline: test_application
+        pipeline: test_application_km
         stage: test_app_image
         name: upstream_pipeline
       SourceCodeRepo:
